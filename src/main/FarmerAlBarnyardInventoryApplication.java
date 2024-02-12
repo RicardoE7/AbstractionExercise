@@ -1,6 +1,8 @@
 package main;
 
 import animals.Cow;
+import animals.Pig;
+import animals.Sheep;
 
 public class FarmerAlBarnyardInventoryApplication {
 
@@ -13,6 +15,14 @@ public class FarmerAlBarnyardInventoryApplication {
 		cow.sleep();
 		
 		// Lets see if we can do this for the Pig and the Sheep as well...
+		
+		Pig pig = new Pig();
+		pig.animalSound();
+		pig.sleep();
+		
+		Sheep sheep = new Sheep();
+		sheep.animalSound();
+		sheep.sleep();
 	}
 
 }
